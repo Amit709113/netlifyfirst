@@ -1,0 +1,6 @@
+body{
+    background: linear-gradient(rgb(213, 63, 196),yellow,white);
+    
+    background-repeat: no-repeat;
+    background-clip: initial;
+}
