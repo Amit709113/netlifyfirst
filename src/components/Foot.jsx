@@ -16,7 +16,7 @@ const Foot = () => {
                         <div className="link-section">
                             <ul>
                                 <li>
-                                    <NavLink to={'/testvite/'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> Home</NavLink>
+                                    <NavLink to={'/'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> Home</NavLink>
                                 </li>
                                 <li>
                                     <a href="https://jac.jharkhand.gov.in/jac/"><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> JAC Official Site</a>
@@ -25,10 +25,10 @@ const Foot = () => {
                                     <a href="https://www.jacresults.com/"><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> JAC Results</a>
                                 </li>
                                 <li>
-                                    <NavLink to={'/testvite/about'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> About Us</NavLink>
+                                    <NavLink to={'/about'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> About Us</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to={'/testvite/admprocedure'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> Admission</NavLink>
+                                    <NavLink to={'/admprocedure'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> Admission</NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -45,10 +45,10 @@ const Facilities = ()=> {
                 <div className="column-heading">Facilities</div>
                 <div className="link-section">
                     <ul>
-                        <li> <NavLink to={'/testvite/sports-teakwondo'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} />Sports</NavLink> </li>
-                        <li> <NavLink to={'/testvite/library'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> Library</NavLink> </li>
-                        <li> <NavLink to={'/testvite/transportation'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> Transportation</NavLink> </li>
-                        <li> <NavLink to={'/testvite/cslab'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> Computer Labs</NavLink> </li>
+                        <li> <NavLink to={'/sports-teakwondo'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} />Sports</NavLink> </li>
+                        <li> <NavLink to={'/library'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> Library</NavLink> </li>
+                        <li> <NavLink to={'/transportation'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> Transportation</NavLink> </li>
+                        <li> <NavLink to={'/cslab'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} /> Computer Labs</NavLink> </li>
                     </ul>
                 </div>
             </div>
@@ -66,7 +66,7 @@ return (
                         <div className="link-section">
                             <ul>
                                 <li>
-                                    <NavLink to={'/testvite/sports-teakwondo'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} />Learning and Assignment Projects</NavLink>
+                                    <NavLink to={'/sports-teakwondo'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} />Learning and Assignment Projects</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to={'#'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} />School login</NavLink>
