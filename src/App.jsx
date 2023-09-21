@@ -47,26 +47,26 @@ function App() {
 
         <Routes>
           <Route path='/' element={<SharedLayout />} >
-            <Route path='/testvite' element={<Home />} />
+            <Route index element={<Home />} />
             
-            <Route path='/testvite/about' element={<About />}/>
-            <Route path='/testvite/whydps' element={<WhyDps />}/>
-            <Route path='/testvite/admprocedure' element={<AdmProcedure />}/>
-            <Route path='/testvite/feestructure' element={<FeeStructure />}/>
-            <Route path='/testvite/principlemsg' element={<PrincipleMessage />}/>
-            <Route path='/testvite/schoolstatistic' element={<SchoolStatistic />}/>
-            <Route path='/testvite/staff' element={<Staff />}/>
-            <Route path='/testvite/schoolstrength' element={<SchoolStrength />}/>
-            <Route path='/testvite/listofholyday' element={<ListOfHolyday />}/>
-            <Route path='/testvite/cslab' element={<CsLab />}/>
-            <Route path='/testvite/library' element={<Library />}/>
-            <Route path='/testvite/abuscus' element={<Abuscus />}/>
-            <Route path='/testvite/gallery' element={<GalleryRoute />}/>
-            <Route path='/testvite/sports-teakwondo' element={<SportsTeakwondo />}/>
-            <Route path='/testvite/transportation' element={<Transportation />}/>
+            <Route path='/about' element={<About />}/>
+            <Route path='/whydps' element={<WhyDps />}/>
+            <Route path='/admprocedure' element={<AdmProcedure />}/>
+            <Route path='/feestructure' element={<FeeStructure />}/>
+            <Route path='/principlemsg' element={<PrincipleMessage />}/>
+            <Route path='/schoolstatistic' element={<SchoolStatistic />}/>
+            <Route path='/staff' element={<Staff />}/>
+            <Route path='/schoolstrength' element={<SchoolStrength />}/>
+            <Route path='/listofholyday' element={<ListOfHolyday />}/>
+            <Route path='/cslab' element={<CsLab />}/>
+            <Route path='/library' element={<Library />}/>
+            <Route path='/abuscus' element={<Abuscus />}/>
+            <Route path='/gallery' element={<GalleryRoute />}/>
+            <Route path='/sports-teakwondo' element={<SportsTeakwondo />}/>
+            <Route path='/transportation' element={<Transportation />}/>
           
-            <Route path='/testvite/notice' element={<Notice/>} />
-            <Route path='/testvite/contectus' element={<Contect />} />
+            <Route path='/notice' element={<Notice/>} />
+            <Route path='/contectus' element={<Contect />} />
 
             
            
