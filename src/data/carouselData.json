@@ -1,0 +1,31 @@
+{
+    "slides":[
+        {   
+            "carouselLink":"http://drive.google.com/uc?export=view&id=1TaDmqO9i5qj-DUEbRUoJ5iW4QjfdTzbD",
+            "carouselAlt":"gate",
+            "carouselComment":"Welcome."
+        },
+        {
+            "carouselLink":"http://drive.google.com/uc?export=view&id=1MWYBZ6P9jJs-o8gAwUBmBLqVlY1jyxed",
+            "carouselAlt":"image 2 for enterence",
+            "carouselComment":"classroom"
+        },
+        {
+            "carouselLink":"http://drive.google.com/uc?export=view&id=1TWwpk9Ql7c3QrRBwhbgL2xi6t4TX58O5",
+            "carouselAlt":"office",
+            "carouselComment":"office" 
+        },
+        {
+            "carouselLink":"http://drive.google.com/uc?export=view&id=1TaD5s4QB_a6lwsliZYtC1dgIt-WQVtBt",
+            "carouselAlt":"building",
+            "carouselComment":"building "
+        },
+        {
+            "carouselLink":"http://drive.google.com/uc?export=view&id=1VuvR0xxTRWIFzM1cSUXykSdwfgEilS5F",
+            "carouselAlt":"assembly",
+            "carouselComment":"Morning Assembly"
+
+        }
+    ]
+    
+}

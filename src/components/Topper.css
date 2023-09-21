@@ -1,0 +1,129 @@
+.section-three-main-div {
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    justify-items: center;
+    row-gap: 1rem;
+    background-color: rgb(250, 251, 253);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  .section-three-sub-div-one {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .quotes-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25px;
+    height: 23px;
+  }
+  .quotes-img-right {
+    justify-self: end;
+    /* background-image: url(./left.png); */
+    background-image:url("../assets/left.png");
+    margin-right: 20px;
+  }
+  .quotes-img-left {
+    /* background-image: url(./right.png); */
+    background-image:url("../assets/right.png" );
+    margin-left: 20px;
+  }
+  .main-quotes-div {
+    /* width: 1110px; */
+    transition: 1s;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  /* ------------------ */
+  .para {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+  }
+  
+  .subText {
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #999999;
+  } 
+ 
+  .not-visible {
+    opacity: 0;
+    transition: 1s;
+  }
+  
+  @media (max-width: 767px) {
+  
+    .section-three-sub-div-one {
+      grid-template-columns: 15% 1fr 15%;
+    }
+  }
+  
+  /* image and own code */
+  
+  #topper-section .profile-image{
+    margin-top:24px;
+    border:2px solid #eee;
+    padding:3px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .subDeg {
+    margin-top: 0.5rem;
+    font-size: 11px;
+    color: #777;
+  }
+ #topper-section .indicator-btn-parent{
+    bottom:1rem;
+    z-index: 0;
+    width:100%;
+    text-align: center;
+  }
+  #topper-section .indicators{
+    margin:auto;
+  }
+  #topper-section .indicator{
+    background-color: #fff;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100% ;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px #555;
+    margin:0 0.2rem;
+    cursor: pointer;
+  }
+#topper-section .indicator-inactive{
+    background-color: gray;
+}
+
+
+.topper-info{
+    /* border:2px solid black; */
+    width: 100%;
+    
+}
+
+.container{
+    /* border: 2px solid black; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    padding:21px 0px;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 600 ;
+    color:#333;
+    background-color: #eee;
+    width:100vw;
+}

@@ -1,0 +1,95 @@
+
+
+{
+
+    "whydps": {
+    
+        "heading":"Why Divine Public School",
+        "bgimgsrc":"http://drive.google.com/uc?export=view&id=1UFHPvhiGwgcV902y6OWK7KjLe8pNjDqI",
+        "subHeading":"What makes us best suitable for your wards",
+        "contentImage":"http://drive.google.com/uc?export=view&id=1UIviW0kP5oXJ8Yz8lfXnlK_T77EDiwK5",
+        "paraList":[
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores recusandae, voluptatem eum quibusdam modi non maxime commodi possimus aperiam fugiat illo cum tenetur quod impedit quae, similique expedita itaque. Incidunt deleniti consequuntur maiores vero temporibus, distinctio delectus sit non ea!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores recusandae, voluptatem eum quibusdam modi non maxime commodi possimus aperiam fugiat illo cum tenetur quod impedit quae, similique expedita itaque. Incidunt deleniti consequuntur maiores vero temporibus, distinctio delectus sit non ea!"
+        ],
+        "ulItemList":[
+            "\"Delivering the content through excellent teachers proficient in creating an environment which fosters enquiring attitude and creativity.\" ",
+            "\"Delivering the content through excellent teachers proficient in creating an environment which fosters enquiring attitude and creativity.\"",
+            "\"Delivering the content through excellent teachers proficient in creating an environment which fosters enquiring attitude and creativity.\"",
+            "\"Delivering the content through excellent teachers proficient in creating an environment which fosters enquiring attitude and creativity.\"",
+            "\"Delivering the content through excellent teachers proficient in creating an environment which fosters enquiring attitude and creativity.\"",
+            "\"Delivering the content through excellent teachers proficient in creating an environment which fosters enquiring attitude and creativity.\""
+        ]
+         
+    },
+    "admprocedure": {
+         
+        "heading":"Admission Procedure",
+        "bgimgsrc":"http://drive.google.com/uc?export=view&id=1VuvR0xxTRWIFzM1cSUXykSdwfgEilS5F",
+        "subHeading":"Steps",
+        "contentImage":"http://drive.google.com/uc?export=view&id=1TupAJ5P4n_lVRTlVAq_bNN06fxXeRCJN",
+        "paraList":[
+            "Our school encourages students participating in extracurricular activities and it is a great way to widen and broaden students’ social circle, expand their interests, and build leadership skills. Our school promotes students’ involvement in school extracurricular activities which leads to positive long-term outcomes.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores recusandae, voluptatem eum quibusdam modi non maxime commodi possimus aperiam fugiat illo cum tenetur quod impedit quae, similique expedita itaque. Incidunt deleniti consequuntur maiores vero temporibus, distinctio delectus sit non ea!"
+        ],
+        "ulItemList":[
+            "The discipline  ",
+            "\"Delivering the content through excellent teachers proficient in creating an environment which fosters enquiring attitude and creativity.\""
+        ]
+    
+    },
+    
+    "fee-structure": {
+        
+        "heading":"Fee Structure",
+        "bgimgsrc":"http://drive.google.com/uc?export=view&id=1VuvR0xxTRWIFzM1cSUXykSdwfgEilS5F",
+        "subHeading":" *fees are subjected to change",
+        "feeTable":[
+            [
+                 "Classes","Tution Fee/Month","Annual Devlopment Charge","Lab Fee","Miscellaneous Charges per annum","extra","sports" 
+            ],
+            [
+                "Nursury","1000","1000","1000","1000","1000"
+            ],
+            [
+                "LKG","1001","1002","1003","1004","1005","1233"
+            ],
+            [
+                "UKG","1001","1002","1003","1004","1005"
+            ],
+            [
+                "I","1001","1002","1003","1004","1005"
+            ],
+            [
+                "II","1001","1002","1003","1004","1005"
+            ],
+            [
+                "III","1001","1002","1003","1004","1005"
+            ],
+            [
+                "IV","1001","1002","1003","1004","1005"
+            ],
+            [
+                "V","1001","1002","1003","1004","1005"
+            ],
+            [
+                "VI","1001","1002","1003","1004","1005"
+            ],
+            [
+                "VII","1001","1002","1003","1004","1005","1234"
+            ],
+            [
+                "VIII","1001","1002","1003","1004","1005"
+            ],
+            [
+                "IX","1001","1002","1003","1004","1005"
+            ],
+            [
+                "X","1001","1002","1003","1004","1005"
+            ]
+        ]
+    
+    }    
+}
+ 
+        
