@@ -15,7 +15,7 @@ export const USER_URL="api/users/"
 
 
 
-export const BASE_URL=BASE_URL_LOCAL;
+export const BASE_URL=BASE_URL_DEPLOY;
 
 export const myAxios=axios.create({
     baseURL:BASE_URL,
