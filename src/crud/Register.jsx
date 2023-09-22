@@ -22,7 +22,7 @@ const Register = () => {
             setMessage({message:`You are successfully Registered !! `,ec:0})
             setTimeout(()=>{
                 setMessage({message:"",ec:0})
-                navigate("/testvite/user/login")},1500
+                navigate("/user/login")},1500
             )
         })
         .catch((error)=>{

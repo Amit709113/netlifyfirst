@@ -38,7 +38,7 @@ const Login = ({fnSetter}) => {
         setMessage({message:`welcome ${data.userDto.name} `,ec:0})
         setTimeout(()=>{
           setMessage({message:"",ec:0})
-          navigate("/testvite/user/dashboard")
+          navigate("/user/dashboard")
         },1500)
 
       }).catch((error)=>{
