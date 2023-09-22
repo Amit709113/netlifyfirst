@@ -36,11 +36,16 @@ const UpdateUser = ({uId,usr,closeFn,messageSetter}) => {
             },3000)
 
     }).catch((error)=>{
-      // console.log(error);
-      messageSetter(error.response.data.message,2);
+      
+      if(error.code=="ERR_BAD_REQUEST"){
+        messageSetter(`session is over please login again`,2)
+      }
+      else{
+        messageSetter(error.response.data.message,2);
+      }
       setTimeout(()=>{
           messageSetter("",0)
-      },3000)
+      },5000)
     })
   }
 
