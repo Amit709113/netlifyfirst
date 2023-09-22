@@ -127,8 +127,7 @@ export const galleryDelete=(id)=>{
 //not requried
 //update gallery by id 
 export const galleryPut=(id,gallery)=>{
-  
-  return myAxiosToken.put(`${GALLERY_URL}${id}`,gallery).then((resp)=>resp.data);
+  return myAxiosToken.put(`${GALLERY_URL}/${id}`,gallery).then((resp)=>resp.data);
 }
 
 //get all image by category 

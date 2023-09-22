@@ -13,8 +13,6 @@ export const CATEGORY_URL="api/category/"
 export const GALLERY_URL="api/gallery/"
 export const USER_URL="api/users/"
 
-
-
 export const BASE_URL=BASE_URL_DEPLOY;
 
 export const myAxios=axios.create({
