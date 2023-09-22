@@ -9,7 +9,7 @@ const MayBeShowNavbar = ({children,setFoot,refNav}) => {
   const location=useLocation();
 
   useEffect(()=>{
-      // console.log(location.pathname)
+      // console.log
       if(location.pathname=="/login" || location.pathname=="/register"||location.pathname.substring(0,6)=="/user/"){
           setNav(false)
           setFoot(false);
