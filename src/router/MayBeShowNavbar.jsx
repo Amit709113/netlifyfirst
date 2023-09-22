@@ -1,4 +1,5 @@
 import React from 'react'
+import BackendNav from '../backend/BackendNav';
 import { useLocation } from 'react-router-dom'
 import { useEffect,useState } from 'react';
 
@@ -8,8 +9,8 @@ const MayBeShowNavbar = ({children,setFoot,refNav}) => {
   const location=useLocation();
 
   useEffect(()=>{
-      // console.log(location.pathname)
-      if(location.pathname=="/testvite/login" || location.pathname=="/testvite/register"||location.pathname.substring(0,15)=="/testvite/user/"){
+      // console.log
+      if(location.pathname=="/login" || location.pathname=="/register"||location.pathname.substring(0,6)=="/user/"){
           setNav(false)
           setFoot(false);
       }else {
@@ -20,7 +21,7 @@ const MayBeShowNavbar = ({children,setFoot,refNav}) => {
 
     return (
       <>
-        {nav? children:null }
+        {nav? children:<BackendNav refreshNav={refNav} /> }
       </>
   )
 }
