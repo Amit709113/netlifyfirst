@@ -23,11 +23,11 @@ const CreateCarousel = () => {
         //call server here 
         setMessage({message:"submitting wait for responses ... ",ec:2})
         carouselPost(carousel).then((resp)=>{
-            console.log(resp);
+            // console.log(resp);
             setMessage({message:`carousel is successfully created with ID ${resp.carouselId}`,ec:0})
             setTimeout(()=>{
                 setMessage({message:"",ec:0})
-                navigator("/testvite/user/dashboard/carousel/all")  // to be tested
+                navigator("/user/dashboard/carousel/all")  // to be tested
 
             },3500)
             //problem related to unauthorized and authorized case

@@ -1,17 +1,29 @@
-
+import { topperGet } from "../crud/UserService";
 import React, {useEffect, useRef, useState } from "react";
 const TOPPER_DELAY = 5000;
 import "./Topper.css"
 
 
 const Topper =  ({toppers}) => {
-  const [topperList,setTopperList]=useState(toppers);
+    
+  
+  const [topperList,setTopperList]=useState([]);
   const topperTimeoutRef = useRef(null);
   const [topperDelay, setTopperDelay] = useState(100);
   const [topperIndex, setTopperIndex] = useState(0);
+
   const setTopperSlide=((idx)=>{setTopperIndex(idx)})
   useEffect(() => setTopperDelay(TOPPER_DELAY), []);
 
+  useEffect(()=>{
+    //fetchdata
+    topperGet().then((resp)=>{
+        setTopperList(resp);
+    }).catch((error)=>{
+        console.log(error);
+    })
+    
+  },[])
 
   useEffect(() => {
 

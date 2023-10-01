@@ -1,14 +1,29 @@
 import React, { useEffect, useState } from 'react'
 import {IoClose} from "react-icons/io5";
 import './Gallery.css'
-// import { categoryGet, galleryGet, gelleryGetByCategory } from '../crud/UserService';
+import { categoryGet, galleryGet, gelleryGetByCategory } from '../crud/UserService';
 
 const Gallery = ({galleryData}) => {
 
-    const [list,setList]=useState([galleryData]);
+    const [list,setList]=useState([]);
     const [imageList,setImageList]=useState([]);
     const [categoryList,setCategoryList]=useState([]);
-    
+    useEffect(()=>{
+        galleryGet().then((resp)=>{
+            console.log(resp);
+            setList(resp);
+        })
+        .catch((error)=>{
+            console.log(error);
+        })
+        categoryGet().then((resp)=>{
+            console.log(resp);
+            setCategoryList(resp);
+        }).catch((error)=>{
+            console.log(error);
+        })
+
+    },[])
     useEffect(()=>{
         setImageList(list);
     },[list]);
