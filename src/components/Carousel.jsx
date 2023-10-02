@@ -3,7 +3,6 @@ const CAROUSEL_DELAY = 3000;
 
 import {BsArrowLeftCircleFill,BsArrowRightCircleFill} from 'react-icons/bs';
 import  "./Carousel.css";
-import defaultLink from "../assets/cca.jpg"
 
 const Carousel = (props) => {
   const [ carouselData ,setCarouselData] = useState(props.carouselArray);
