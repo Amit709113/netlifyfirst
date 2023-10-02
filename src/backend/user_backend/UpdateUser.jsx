@@ -121,5 +121,4 @@ const UpdateUser = ({uId,usr,closeFn,messageSetter}) => {
     </>
   )
 }
-
 export default UpdateUser

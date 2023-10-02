@@ -1,9 +1,19 @@
 import React, { useEffect,useState } from 'react'
 import './NoticeBox.css'
+import { noticeGet } from '../crud/UserService';
 
-const NoticeBox = (props) => {
+const NoticeBox = () => {
 
-  const[notice,setNotice]=useState(props.notice);
+  const[notice,setNotice]=useState();
+
+  useEffect(()=>{
+    noticeGet().then((resp)=>{
+      setNotice(resp);
+
+    }).catch((error)=>{
+      console.error(error);
+    })
+  },[])
 
   return (
     <>

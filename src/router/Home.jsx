@@ -10,22 +10,22 @@ import VlogList from '../components/VlogList';
 import Topper from '../components/Topper';
 
 //data import 
-import data from '../data/carouselData.json';
-import noticeData from '../data/noticeData.json'; 
+
+
 import eventData from '../data/eventData.json'
 import vlog from '../data/vlogData.json'
-import topperData from '../data/topperData.json'
+
 
 const Home = () => {
   return (
     <>
-    <Carousel carouselArray={data.slides} />
+    <Carousel  />
     <div className='notice-wrapper'>
-      <NoticeBox notice={noticeData.noticeBoard}/>
+      <NoticeBox />
       <EventBox event={eventData.eventData}/>
     </div>
     <VlogList data={vlog.articals}/>
-    <Topper toppers={topperData}/>
+    <Topper />
     <GoToTop />
       
     </>

@@ -1,5 +1,6 @@
 #notice-section-container{
     background: #cfcfcf;
+    width:100%;
 }
 .notice-content-section{
     width:100%;
@@ -21,18 +22,6 @@
     position:relative;
     overflow: block;
 }
-/* #notice-section-container span::after{
-    position: relative;
-    content: "";
-    display:block;
-    height: 100px;
-    width:100px;
-    background-color: #333;
-    transform:scale(1);
-    border-top:10px solid black;
-    border-left:10px solid black;
-    
-} */
 #notice-section-container .notice-date{
     font-size: 0.8rem;
     color:#333;

@@ -28,7 +28,7 @@ const CreateTopper = () => {
       setMessage({message:"topper is successfully added ",ec:0})
             setTimeout(()=>{
               setMessage({message:"",ec:0})
-                navigator("/testvite/user/dashboard/topper/all")  // to be tested
+                navigator("/user/dashboard/topper/all")  // to be tested
             },3500)
 
     }).catch((error)=>{

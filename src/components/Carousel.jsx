@@ -3,15 +3,24 @@ const CAROUSEL_DELAY = 3000;
 
 import {BsArrowLeftCircleFill,BsArrowRightCircleFill} from 'react-icons/bs';
 import  "./Carousel.css";
+import { carouselGet } from "../crud/UserService";
+import defaultLink from "../assets/cca.jpg"
 
-const Carousel = (props) => {
-  const [ carouselData ,setCarouselData] = useState(props.carouselArray);
+const Carousel = () => {
+  const [ carouselData ,setCarouselData] = useState([]);
   const carouselTimeoutRef = useRef(null);
   const [carouselDelay, setCarouselDelay] = useState(CAROUSEL_DELAY);
   const [carouselIndex, setCarouselIndex] = useState(0);
 
+  useEffect(()=>{
+    //call server here
+    carouselGet().then((resp)=>{
+      setCarouselData(resp);
 
-
+    }).catch((error)=>{
+      setCarouselData([{carouselAlt:`${error.message}`,carouselComment:`${error.message} server is not responding`, carouselLink:{defaultLink}}])
+    })
+  },[])
 
   const nextSlide=()=>{
     setCarouselIndex(carouselIndex===carouselData.length-1?0:carouselIndex+1);
