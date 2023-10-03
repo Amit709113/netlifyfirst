@@ -18,20 +18,20 @@ const NbStartColumn = () => {
                                 <div className="inner-left-body">
                                     <ul className="left-nav">
                                         <li>
-                                            <NavLink to={'/testvite/notice'}> <FaGreaterThan />New Notice</NavLink>
+                                            <NavLink to={'/notice'}> <FaGreaterThan />New Notice</NavLink>
                                             {/* to should be updated */}
                                         </li>
                                         <li>
-                                            <NavLink to={'/testvite'}> <FaGreaterThan />Home </NavLink>
+                                            <NavLink to={'/'}> <FaGreaterThan />Home </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to={'/testvite/admprocedure'}> <FaGreaterThan />Admission</NavLink>
+                                            <NavLink to={'/admprocedure'}> <FaGreaterThan />Admission</NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to={'/testvite/abuscus'}> <FaGreaterThan />Facilities</NavLink>
+                                            <NavLink to={'/abuscus'}> <FaGreaterThan />Facilities</NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to={'/testvite/contectus'}> <FaGreaterThan />Contect Us</NavLink>
+                                            <NavLink to={'/contectus'}> <FaGreaterThan />Contect Us</NavLink>
                                         </li>
                                     </ul>
                                 </div>

@@ -17,7 +17,7 @@ const Gallery = () => {
             console.log(error);
         })
         categoryGet().then((resp)=>{
-            console.log(resp);
+            
             setCategoryList(resp);
         }).catch((error)=>{
             console.log(error);
@@ -30,10 +30,11 @@ const Gallery = () => {
 
     const [model,setModel] =useState(false);
     const[tempImg,setTempImg]=useState('');
-        const getImg=({imgSrc,caption})=>{
+        const getImg=({link,caption})=>{
+            console.log(link,caption)
             setTempImg(()=>{
                 return ({
-                    imgSrc:imgSrc,
+                    imgSrc:link,
                     caption:caption
                 })
             });
@@ -76,7 +77,7 @@ const Gallery = () => {
                     imageList.map((image,idx)=>{
                         const {galleryLink:link,galleryCaption:caption,galleryAlt:alt}=image;
                         return (<div className='pics' key={idx} onClick={()=>getImg({link,caption})}>
-                                    <img  src={link} alt={alt} className='gallery-image' loading='lazy' />
+                                    <img src={link} alt={alt} className='gallery-image' loading='lazy' />
                                 </div>)
                     })
                 }
